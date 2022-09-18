@@ -46,7 +46,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-./Binaries/*
+Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
@@ -73,7 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# remove .idea files
-.idea/*
-
-./DS_Store
+.idea
+Plugins/Developer/*
+#Config/*
